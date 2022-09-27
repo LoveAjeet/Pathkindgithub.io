@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathkind html</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <style>
+        .l-pop {
+            background: white;
+            position: fixed;
+            height: 746px;
+            width: 400px;
+            top: 0px;
+            right: 0;
+            box-shadow: 0 0 4px 2px rgb(0 0 0 / 33%);
+            transition: 0.5s ease-in;
+        }
+
+        .fa-times {
+            user-select: none;
+            cursor: pointer;
+            position: absolute;
+            padding: 10px;
+            top: 0px;
+            left: -31px;
+            color: white;
+            background: darkgrey;
+            z-index: 1;
+
+
+        }
+
+        .rahul{
+            height: 150px;
+            width: 100%;
+            background-color: darkblue;
+        }
+        .rahul-img{
+           padding: 40px 15px;
+        }
+
+        .phone-icon {
+            margin: 14px 18px;
+        }
+
+        .heading {
+
+            
+          margin: -17px 16px;
+          color: darkblue;
+        }
+
+        .space {
+            font-weight: 900;
+            margin: -23px 24px;
+            color: yellow;
+
+        }
+
+        #ajeet {
+            height: 24%;
+            width: 78%;
+            border-radius: 98px;
+            margin-right: 40%;
+            margin-top: 25px;
+            display: flex;
+            flex-direction: column;
+            padding: 12px;
+            justify-content: space-around;
+        }
+
+        #ajeet input {
+            width: 80%;
+            height: 35px;
+            margin-left: 15px;
+            border-radius: 25px;
+            border: none;
+            /* outline: 1px solid gray; */
+            padding: 4px;
+            color: gray;
+            background-color: gainsboro;
+        }
+        #ajeet a {
+            width: 80%;
+            height: 30px;
+            margin: 13px;
+            text-align: center;
+            border-radius: 25px;
+            padding: 7px;
+            font-weight: bold;
+            color: white;
+            background-color: rgb(56, 56, 131);
+            text-decoration: none;
+
+        }
+
+        .footer p {
+            margin: -7px 30px;
+            text-decoration: none;
+            display: -webkit-box;
+        }
+
+        .footer a {
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="tooop">
+        <div id="left-logo">
+            <img src="https://health.pathkindlabs.com/assets/pathapp/images/PathkindLogo.png
+        " alt="">
+        </div>
+
+
+
+        <div id="mid-head">
+            <div id="search-bar">
+                <input type="text" placeholder=" search city" id="city-search">
+                <span><i class="fa fa-search"></i></span>
+                <input type="text" placeholder="search for a test, health packeg or labs" id="lab-search">
+            </div>
+            <div id="menu-barr">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PATENTS <i class="fa-solid fa-angle-down"></i></a></li>
+                    <li><a href="#">BOOKA A TEST</a></li>
+                    <li><a href="#">DOCTORS <i class="fa-solid fa-angle-down"></i></a> </li>
+                    <li><a href="#">LAB LOCATIOR</a></li>
+                </ul>
+            </div>
+            <div id="menu"></div>
+        </div>
+
+
+
+
+
+
+        <div id="right-header">
+            <div id="right-logo">
+                <span><img src="https://health.pathkindlabs.com/assets/pathapp/images/call-us.png" alt=""></span>
+                <span><a href="#">CALL US 75000 75111</a></span>
+                <span><img src="https://health.pathkindlabs.com/assets/pathapp/images/cart.png" alt=""></span>
+                <a class="open" target="_blank"><img src="images/main icon.png" alt="login image" class="src"></a>
+            </div>
+            <div id="right-menu-bar">
+                <ul>
+                    <li><a href="#" class="x"><img
+                                src="https://health.pathkindlabs.com/assets/pathapp/images/download.svg" alt="">
+                            DOWNLOAD REPORT</a></li>
+
+                    <li><a href="#" class="x"> <img
+                                src="https://health.pathkindlabs.com/assets/pathapp/images/upload.svg" alt="">UPLOAD
+                            PRESCRIPTION</a></li>
+
+                    <li><a href="#" class="x">PARINER WITH US <i class="fa-solid fa-angle-down" id="x1"></i></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="mid-page">
+        <section id="left" class="mid-sec">
+            <div id="login-imf">
+                <h2>Schedule a Home Collection</h4>
+                    <p>Chosse from a range of compregensive tests and book home colloction from the comfort of your home
+                    </p>
+                    <input type="text" placeholder="What's your name?*">
+                    <input type="text" placeholder="Mobile  number*">
+                    <input type="text" placeholder="City">
+                    <button>Submit</button>
+            </div>
+        </section>
+        <section id="right" class="mid-sec">
+            <div id="image-add">
+                <div id="image-text">
+                    <p>Choose from a range of comprehensive full body health check-up packages</p>
+                    <p>for you and your family</p>
+                    <a href="https://www.pathkindlabs.com/pathkind_app/book-blood-test-online-in-india?sort_by=2"
+                        target="_blank"><button>See Details</button></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+           <!-- ***** inner login page **** -->
+    <section class="l-pop">
+        <span class="close"> <i class="fa fa-times " aria-hidden="true" style="margin-left: 31px;"></i></span>
+        <div class="rahul">
+            <div class="rahul-img">
+                <img src="images/logo_popup.png" alt="pathkind main logo " class="src" style="height: 88px;">
+            </div>
+        </div>
+        <div class="phone-icon">
+            <img src="images/mobile icon.png" alt="Mobile phone icon" class="src">
+        </div>
+        <div class="heading">
+            <h2>Login</h2>
+        </div>
+        <div class="space">
+            <h1>___</h1>
+        </div>
+        <div id="ajeet">
+
+            <p>Enter your mobile no.An OTP will be sent to this no.</p>
+
+            <input type="text" placeholder="   Mobile*">
+
+            <a href="https://www.pathkindlabs.com/" target="_blank"> Get Otp </a>
+        </div>
+        <div class="footer">
+            <p>"By continuing,your agree to pathkind's"
+                <a href="https://www.pathkindlabs.com/terms-use" target="_blank">Terms of <br> Use </a>
+                "and"
+
+                <a href="https://www.pathkindlabs.com/privacy-policy" target="_blank">Privacy Policy</a>
+                "."
+
+            </p>
+        </div>
+    </section>
+    <script>
+
+        var close = document.querySelector('.close')
+        var sidebar = document.querySelector('.l-pop')
+        var open = document.querySelector('.open ')
+        open
+        close.addEventListener('click', function () {
+            console.log('close btn click  close.addEventListener')
+
+            if (sidebar.style.width == '400px') {
+                sidebar.style.width = "0";
+                close.style.display = "none";
+
+            } else {
+                sidebar.style.width = "400px";
+
+            }
+        })
+        open.onclick = function () {
+            sidebar.style.width = "400px";
+            close.style.display = "block";
+        }
+
+
+    </script>
+</body>
+
+<div class="parents">
+    <div class="child">
+        <ul>
+            <li><a href=""></a></li>
+        </ul>
+    </div>
+
+</div>
+<!-- <style>
+    .parents .clild {}
+
+    .parents .clild ul {}
+
+    .parents .clild ul li {}
+
+    .parents .clild ul li a
+</style> -->
+
+</html>

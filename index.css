@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#right-header{
+   
+    height: 100px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   padding:0px 10px;
+}
+#right-logo{
+   
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+   
+}
+#right-menu-bar{
+    
+    
+}
+#right-menu-bar ul li{
+   list-style: none;
+}
+#right-menu-bar ul li a{
+    text-decoration: none;
+}
+#right-menu-bar ul{
+    display: flex;
+    font-size: x-small;
+    justify-content: space-between;
+    font-weight: bold;
+    align-items: center;
+}
+.x{
+display: flex;
+align-items: center;
+}
+#x1{
+font-size: 20px;
+}
+#tooop{
+display: flex;
+
+    justify-content: space-between;
+    box-shadow: 10px 10px 10px 10px gainsboro;
+}
+
+
+
+
+
+
+
+#search-bar input{
+border: none;
+height: 95%;
+outline: none;
+background-color: gainsboro;
+}
+#search-bar {
+    display: flex;
+    border: 1px solid gray;
+    height: 30px;
+    align-items: center;
+    width: 500px;
+    border-radius: 25px; 
+    background-color: gainsboro;    
+       
+}
+#search-bar i{
+   
+    height: 30px;
+    display: flex;
+    align-items: center;
+    width: 50px;
+    justify-content: center;
+}
+#city-search{
+    width: 70px;
+    margin: 0px 12px;
+}
+#lab-search{
+    width: 250px;
+}
+#menu-barr{
+   
+    font-size: x-small;
+    width: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu-barr ul li{
+    list-style: none;
+    
+    width: 100px;
+    margin:0px  2px;
+}
+#menu-barr a{
+    text-decoration: none;
+    
+   
+    font-weight: bold;
+}
+#menu-barr ul{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  width:420px;
+  align-items: center;
+}
+
+#mid-head{
+display: flex;
+flex-direction: column;
+height: 100px;
+justify-content: space-around;
+
+width: 500px;
+}
+
+
+
+#left-logo{
+   
+    height: 100px;
+    width: 380px;
+    padding: 10px;
+}
+#left-logo img{
+    width: 100%;
+  
+}
+
+
+
+#mid-page{
+    height: 70vh;
+    width: 100%;
+   
+    display: flex;
+}
+.mid-sec{
+    width: 50%;
+    
+    height:  100%;
+}
+#login-imf{
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: space-around;
+    box-shadow: 10px 10px 25px 30px gainsboro;
+}
+#login-imf input{
+    width: 100%;
+   height: 40px;
+   border-radius: 25px;
+    border: none;
+    outline: 1px solid gray;  
+    padding: 4px;
+    color: gray;
+    background-color: gainsboro;
+}
+#login-imf  button{
+height: 35px;
+border-radius: 25px;
+padding: 10px;
+font-weight: bold;
+color: white;
+background-color: rgb(56, 56, 131);
+}
+#login-imf h2{
+    color: rgb(56, 56, 131);
+}
+#image-add{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://health.pathkindlabs.com/assets/pathapp/images/Web-image-3_0.jpg);
+    background-size: cover;
+    position: relative;
+}
+#image-add p{
+font-size: 20px;
+font-family: sans-serif;
+color: white;
+     
+}
+#image-text{
+position: absolute;
+top: 25%;
+width: 90%;
+left: 5%;
+}
+#image-text p{
+margin:10px 20px ;
+}
+#image-text a button{
+height: 35px;
+border-radius: 25px;
+padding: 5px;
+background-color: white;
+}
